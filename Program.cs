@@ -57,6 +57,14 @@ namespace IDP_assg_3
             {
                 grundämne.Print();
             }
+            Console.WriteLine("__________");
+            Console.WriteLine("__________");
+            foreach (Grundämne grundämne in grundämnenarr)
+            {
+                Console.WriteLine(grundämne.Namn);
+            }
+            Console.WriteLine("__________");
+            Console.WriteLine("__________");
 
         }
     }
