@@ -38,6 +38,10 @@ namespace IDP_assg_3
             Grundämne järn = new("Järn", 26, "Metall", 1811, 3134);
             Grundämne guld = new("Guld", 79, "Metall", 1337.33, 3243);
 
+            syre.Print();
+            järn.Print();
+            guld.Print();
+
         }
     }
 }
