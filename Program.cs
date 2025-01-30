@@ -65,7 +65,13 @@ namespace IDP_assg_3
             }
             Console.WriteLine("__________");
             Console.WriteLine("__________");
-
+            foreach (Grundämne grundämne in grundämnenarr)
+            {
+                if (grundämne.Kokpunkt > 273.16 && grundämne.Smältpunkt < 273.16)
+                {
+                    Console.WriteLine(grundämne.Namn);
+                }
+            }
         }
     }
 }
