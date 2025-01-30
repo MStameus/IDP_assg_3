@@ -42,6 +42,15 @@ namespace IDP_assg_3
             järn.Print();
             guld.Print();
 
+            Grundämne[] grundämnenarr = new Grundämne[6];
+
+            grundämnenarr[0] = syre;
+            grundämnenarr[1] = järn;
+            grundämnenarr[2] = guld;
+            grundämnenarr[3] = new Grundämne("Väte", 1, "Ickemetall", 13.99, 20.271);
+            grundämnenarr[4] = new Grundämne("Brom", 35, "Ickemetall", 265.8, 332.0);
+            grundämnenarr[5] = new Grundämne("Kvicksilver", 80, "Metall", 234.3210, 629.88);
+
         }
     }
 }
